@@ -17,8 +17,8 @@ The application features:
 ```mermaid
 graph TD
     A[User] -->|Interacts via Browser| B(Next.js App);
-    B -->|Displays UI| C[Dashboard UI (React/ShadCN)];
-    C -->|Triggers Tests| D[AI Red Team Flows (Genkit)];
+    B -->|Displays UI| C[Dashboard UI React/ShadCN];
+    C -->|Triggers Tests| D[AI Red Team Flows Genkit];
     D -->|Uses Tools & Prompts| E[Gemini Models];
     D -->|Tests Vulnerabilities| F[Embedded Mock A2A Server];
     B -->|Hosts| F;
